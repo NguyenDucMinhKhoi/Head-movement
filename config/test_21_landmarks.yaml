@@ -1,0 +1,50 @@
+work_dir:  ./work_dir/retrain/FAN/distillation/test_FAN_21LM_3D_1S_N0.5_normalized_distill_matrix
+model_saved_name:  /media/casa/Research/Projects/headpose/gcn-distill/retrain/FAN/3D/3D_FAN_21LM_N0.5_normalized_reconstruct_weak_geodesic/
+save_score: False
+
+# dataset
+#
+dataset: 'AFLW2000'
+data_path: 'data/FAN/AFLW2000/'
+file_name: 'filelist/AFLW2000.txt'
+
+#dataset: 'BIWI'
+#data_path: 'data/FAN/BIWI/'
+#file_name: 'filelist/BIWI_test_p1.txt'
+
+#train_dataset: '300W_LP'
+#test_dataset: 'AFLW2000'
+#train_data_path: 'data/300W_LP'
+#test_data_path: 'data/AFLW2000'
+#train_file_name: '300W_LP-3D.txt'
+#test_file_name: 'AFLW2000.txt'
+
+# model
+model: model.agcn_3d_coarse_to_fine.Model
+model_args:
+  # num_bin: 66
+  num_bin: 66
+  num_landmark: 21
+
+# testing
+phase: "test"
+test_loop: True
+debug: False
+batch_size: 64
+test_batch_size: 64
+
+
+#Protocol1
+# weights_file: ./output/3D/distillation/21_landmark-3D_1stream_noise0.5
+# weights_file: /media/casa/SP PHD U3/Mnn_output/3D/distillation/21_landmark-3D_1stream_noise0.5
+
+# weights_file: /media/casa/Research/Projects/headpose/gcn-distill/output/retrain/FAN/3D/FAN_21LM_3D_1S_N0.5_normalized_matrix_rescale
+# weights_file: /media/casa/Research/Projects/headpose/gcn-distill/output/retrain/FAN/3D/FAN_21LM_3D_1S_N0.5_normalized_multihead_2/FAN_21LM_3D_1S_N0.5_normalized_multihead_2-39.pt
+# weights_file: /media/casa/Research/Projects/headpose/gcn-distill/output/retrain/FAN/3D/FAN_21LM_3D_1S_N0.5_normalized_matrix_rescale/FAN_21LM_3D_1S_N0.5_normalized_matrix_rescale-195.pt
+# weights_file:  /media/casa/Research/Projects/headpose/gcn-distill/output/retrain/FAN/distillation/FAN_21LM_N0.5_normalized_matrix_distill
+weights_file:     ./output/distill_FAN_21LM_N0.5_normalized_notobey/
+
+# weights_file: ./output/3D/21_landmark-3D-23-11376.pt
+# weights_file: ./output/retrain/FAN/3D/FAN_21LM_3D_1S_N0.5_normalized/FAN_21LM_3D_1S_N0.5_normalized-139.pt
+#Protocol2
+# weights_file:  /media/casa/Research/Projects/headpose/gcn-distill/output/retrain/FAN/3D/FAN_21LM_N0.5_normalized_matrix_P3

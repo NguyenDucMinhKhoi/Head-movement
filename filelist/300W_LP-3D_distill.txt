@@ -1,0 +1,10 @@
+data-3D-distill/distill_data_1.pt
+data-3D-distill/distill_data_2.pt
+data-3D-distill/distill_data_3.pt
+data-3D-distill/distill_data_4.pt
+data-3D-distill/distill_data_5.pt
+data-3D-distill/distill_data_6.pt
+data-3D-distill/distill_data_7.pt
+data-3D-distill/distill_data_8.pt
+data-3D-distill/distill_data_9.pt
+data-3D-distill/distill_data_10.pt

@@ -1,0 +1,110 @@
+[ Sat Feb  3 05:19:36 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 05:20:08 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 05:20:15 2024 ] Training epoch: 1
+[ Sat Feb  3 05:31:20 2024 ] 	Mean training loss: -2.1588.
+[ Sat Feb  3 05:31:20 2024 ] 	learning rate: 0.0100.
+[ Sat Feb  3 05:31:20 2024 ] 	yaw error: 13.8116.
+[ Sat Feb  3 05:31:20 2024 ] 	pitch error: 8.9451.
+[ Sat Feb  3 05:31:20 2024 ] 	roll error: 7.9026.
+[ Sat Feb  3 05:31:39 2024 ] 	MAE test1 loss of 104 batches: 6.626306056976318.
+[ Sat Feb  3 05:31:39 2024 ] 	MAE yaw test1 loss of 104 batches: 4.587364196777344.
+[ Sat Feb  3 05:31:39 2024 ] 	MAE pitch test1 loss of 104 batches: 10.261107444763184.
+[ Sat Feb  3 05:31:39 2024 ] 	MAE roll test1 loss of 104 batches: 5.030447006225586.
+[ Sat Feb  3 05:31:43 2024 ] 	MAE test2 loss of 16 batches: 7.668888568878174.
+[ Sat Feb  3 05:31:43 2024 ] 	MAE yaw test2 loss of 16 batches: 6.835076332092285.
+[ Sat Feb  3 05:31:43 2024 ] 	MAE pitch test2 loss of 16 batches: 8.681314468383789.
+[ Sat Feb  3 05:31:43 2024 ] 	MAE roll test2 loss of 16 batches: 7.490274429321289.
+[ Sat Feb  3 05:31:43 2024 ] Training epoch: 2
+[ Sat Feb  3 05:37:24 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 05:37:47 2024 ] 	MAEV test1 loss of 104 batches: 5.8861284255981445.
+[ Sat Feb  3 05:37:47 2024 ] 	Left MAEV test1 loss of 104 batches: 5.288283824920654.
+[ Sat Feb  3 05:37:47 2024 ] 	Down MAEV test1 loss of 104 batches: 5.609644889831543.
+[ Sat Feb  3 05:37:47 2024 ] 	Front MAEV test1 loss of 104 batches: 6.7604570388793945.
+[ Sat Feb  3 05:37:47 2024 ] 	MAE test1 loss of 104 batches: 4.082706928253174.
+[ Sat Feb  3 05:37:47 2024 ] 	MAE yaw test1 loss of 104 batches: 3.9956328868865967.
+[ Sat Feb  3 05:37:47 2024 ] 	MAE pitch test1 loss of 104 batches: 5.194823741912842.
+[ Sat Feb  3 05:37:47 2024 ] 	MAE roll test1 loss of 104 batches: 3.057664155960083.
+[ Sat Feb  3 05:37:51 2024 ] 	MAEV test2 loss of 16 batches: 5.455199718475342.
+[ Sat Feb  3 05:37:51 2024 ] 	Left MAEV test2 loss of 16 batches: 5.1187744140625.
+[ Sat Feb  3 05:37:51 2024 ] 	Down MAEV test2 loss of 16 batches: 5.292533874511719.
+[ Sat Feb  3 05:37:51 2024 ] 	Front MAEV test2 loss of 16 batches: 5.954293251037598.
+[ Sat Feb  3 05:37:51 2024 ] 	MAE test2 loss of 16 batches: 4.586646556854248.
+[ Sat Feb  3 05:37:51 2024 ] 	MAE yaw test2 loss of 16 batches: 3.651000499725342.
+[ Sat Feb  3 05:37:51 2024 ] 	MAE pitch test2 loss of 16 batches: 5.881272792816162.
+[ Sat Feb  3 05:37:51 2024 ] 	MAE roll test2 loss of 16 batches: 4.22766637802124.
+[ Sat Feb  3 05:37:51 2024 ] Done.
+
+[ Sat Feb  3 06:03:42 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 06:05:24 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 06:05:32 2024 ] 	MAEV test1 loss of 41 batches: 4.958463191986084.
+[ Sat Feb  3 06:05:32 2024 ] 	Left MAEV test1 loss of 41 batches: 4.864389419555664.
+[ Sat Feb  3 06:05:32 2024 ] 	Down MAEV test1 loss of 41 batches: 4.993829727172852.
+[ Sat Feb  3 06:05:32 2024 ] 	Front MAEV test1 loss of 41 batches: 5.017169952392578.
+[ Sat Feb  3 06:05:32 2024 ] 	MAE test1 loss of 41 batches: 3.476733684539795.
+[ Sat Feb  3 06:05:32 2024 ] 	MAE yaw test1 loss of 41 batches: 3.1519129276275635.
+[ Sat Feb  3 06:05:32 2024 ] 	MAE pitch test1 loss of 41 batches: 3.830901622772217.
+[ Sat Feb  3 06:05:32 2024 ] 	MAE roll test1 loss of 41 batches: 3.4473865032196045.
+[ Sat Feb  3 06:05:32 2024 ] Done.
+
+[ Sat Feb  3 06:17:32 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 06:18:47 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 06:27:06 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 06:27:15 2024 ] 	MAEV test1 loss of 41 batches: 4.087640762329102.
+[ Sat Feb  3 06:27:15 2024 ] 	Left MAEV test1 loss of 41 batches: 4.2140092849731445.
+[ Sat Feb  3 06:27:15 2024 ] 	Down MAEV test1 loss of 41 batches: 4.003904819488525.
+[ Sat Feb  3 06:27:15 2024 ] 	Front MAEV test1 loss of 41 batches: 4.045008659362793.
+[ Sat Feb  3 06:27:15 2024 ] 	MAE test1 loss of 41 batches: 2.8622632026672363.
+[ Sat Feb  3 06:27:15 2024 ] 	MAE yaw test1 loss of 41 batches: 2.618955612182617.
+[ Sat Feb  3 06:27:15 2024 ] 	MAE pitch test1 loss of 41 batches: 2.861768960952759.
+[ Sat Feb  3 06:27:15 2024 ] 	MAE roll test1 loss of 41 batches: 3.1060657501220703.
+[ Sat Feb  3 06:27:15 2024 ] Done.
+
+[ Sat Feb  3 06:28:33 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 06:28:55 2024 ] 	MAEV test1 loss of 104 batches: 2.8123350143432617.
+[ Sat Feb  3 06:28:55 2024 ] 	Left MAEV test1 loss of 104 batches: 2.8632125854492188.
+[ Sat Feb  3 06:28:55 2024 ] 	Down MAEV test1 loss of 104 batches: 2.616607904434204.
+[ Sat Feb  3 06:28:55 2024 ] 	Front MAEV test1 loss of 104 batches: 2.9571847915649414.
+[ Sat Feb  3 06:28:55 2024 ] 	MAE test1 loss of 104 batches: 1.9592905044555664.
+[ Sat Feb  3 06:28:55 2024 ] 	MAE yaw test1 loss of 104 batches: 1.99824059009552.
+[ Sat Feb  3 06:28:55 2024 ] 	MAE pitch test1 loss of 104 batches: 1.9897643327713013.
+[ Sat Feb  3 06:28:55 2024 ] 	MAE roll test1 loss of 104 batches: 1.8898664712905884.
+[ Sat Feb  3 06:28:59 2024 ] 	MAEV test2 loss of 16 batches: 30.347171783447266.
+[ Sat Feb  3 06:28:59 2024 ] 	Left MAEV test2 loss of 16 batches: 29.554513931274414.
+[ Sat Feb  3 06:28:59 2024 ] 	Down MAEV test2 loss of 16 batches: 25.68018341064453.
+[ Sat Feb  3 06:28:59 2024 ] 	Front MAEV test2 loss of 16 batches: 35.80682373046875.
+[ Sat Feb  3 06:28:59 2024 ] 	MAE test2 loss of 16 batches: 21.44184684753418.
+[ Sat Feb  3 06:28:59 2024 ] 	MAE yaw test2 loss of 16 batches: 23.931615829467773.
+[ Sat Feb  3 06:28:59 2024 ] 	MAE pitch test2 loss of 16 batches: 25.055559158325195.
+[ Sat Feb  3 06:28:59 2024 ] 	MAE roll test2 loss of 16 batches: 15.338366508483887.
+[ Sat Feb  3 06:28:59 2024 ] Done.
+
+[ Sat Feb  3 06:30:30 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 06:30:39 2024 ] 	MAEV test1 loss of 41 batches: 4.697444438934326.
+[ Sat Feb  3 06:30:39 2024 ] 	Left MAEV test1 loss of 41 batches: 4.81840181350708.
+[ Sat Feb  3 06:30:39 2024 ] 	Down MAEV test1 loss of 41 batches: 4.324467182159424.
+[ Sat Feb  3 06:30:39 2024 ] 	Front MAEV test1 loss of 41 batches: 4.949463844299316.
+[ Sat Feb  3 06:30:39 2024 ] 	MAE test1 loss of 41 batches: 3.1848485469818115.
+[ Sat Feb  3 06:30:39 2024 ] 	MAE yaw test1 loss of 41 batches: 3.4530556201934814.
+[ Sat Feb  3 06:30:39 2024 ] 	MAE pitch test1 loss of 41 batches: 3.2012856006622314.
+[ Sat Feb  3 06:30:39 2024 ] 	MAE roll test1 loss of 41 batches: 2.9002041816711426.
+[ Sat Feb  3 06:30:39 2024 ] Done.
+
+[ Sat Feb  3 06:33:53 2024 ] using warm up, epoch: 0
+[ Sat Feb  3 06:34:16 2024 ] 	MAEV test1 loss of 104 batches: 5.746115207672119.
+[ Sat Feb  3 06:34:16 2024 ] 	Left MAEV test1 loss of 104 batches: 5.201113700866699.
+[ Sat Feb  3 06:34:16 2024 ] 	Down MAEV test1 loss of 104 batches: 5.448437690734863.
+[ Sat Feb  3 06:34:16 2024 ] 	Front MAEV test1 loss of 104 batches: 6.588794231414795.
+[ Sat Feb  3 06:34:16 2024 ] 	MAE test1 loss of 104 batches: 3.914565324783325.
+[ Sat Feb  3 06:34:16 2024 ] 	MAE yaw test1 loss of 104 batches: 3.853627920150757.
+[ Sat Feb  3 06:34:16 2024 ] 	MAE pitch test1 loss of 104 batches: 5.065650463104248.
+[ Sat Feb  3 06:34:16 2024 ] 	MAE roll test1 loss of 104 batches: 2.8244173526763916.
+[ Sat Feb  3 06:34:19 2024 ] 	MAEV test2 loss of 16 batches: 5.45703125.
+[ Sat Feb  3 06:34:19 2024 ] 	Left MAEV test2 loss of 16 batches: 5.157876968383789.
+[ Sat Feb  3 06:34:19 2024 ] 	Down MAEV test2 loss of 16 batches: 5.288034439086914.
+[ Sat Feb  3 06:34:19 2024 ] 	Front MAEV test2 loss of 16 batches: 5.925183296203613.
+[ Sat Feb  3 06:34:19 2024 ] 	MAE test2 loss of 16 batches: 4.5528059005737305.
+[ Sat Feb  3 06:34:19 2024 ] 	MAE yaw test2 loss of 16 batches: 3.6360952854156494.
+[ Sat Feb  3 06:34:19 2024 ] 	MAE pitch test2 loss of 16 batches: 5.898143291473389.
+[ Sat Feb  3 06:34:19 2024 ] 	MAE roll test2 loss of 16 batches: 4.124180316925049.
+[ Sat Feb  3 06:34:19 2024 ] Done.
+

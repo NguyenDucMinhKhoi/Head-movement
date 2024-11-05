@@ -1,0 +1,55 @@
+work_dir: ./work_dir/retrain/FAN/3D/FAN_21LM_3D_1S_N0.5_normalized_remove
+model_saved_name: ./save_model/ref_baseline_p2/ref_baseline_p2
+# train_dataset: 'Pose_300W_LP'
+# train_data_path: 'data/resize_300W_LP/'
+# train_file_name: 'filelist/300W_LP.txt'
+
+train_dataset: 'BIWI'
+train_data_path: 'data/resize_BIWI/'
+train_file_name: 'filelist/BIWI_train.txt'
+
+# valid_dataset: 'AFW'
+# valid_data_path: 'data/resize_300W_LP/'
+# valid_file_name: 'filelist/AFW_ep.txt'
+
+test_dataset1: 'BIWI'
+test_data_path1: 'data/resize_BIWI/'
+test_file_name1: 'filelist/BIWI_test_p2.txt'
+
+# test_dataset2: 'AFLW2000'
+# test_data_path2: 'data/resize_AFLW2000/'
+# test_file_name2: 'filelist/AFLW2000.txt'
+
+
+
+# model
+model: model.agcn_3d_coarse_to_fine.Model
+
+
+# optim
+optimizer: Adam
+weight_decay: 1e-6
+# weight_decay: 0.00001
+base_lr: 0.01
+#step: [15, 40, 55, 80]
+# step: [20,50,80]
+step: [20, 50]
+#step: [2, 3]
+
+# training
+debug: True
+batch_size: 128
+test_batch_size: 128
+num_epoch: 100
+nesterov: True
+# weights_file: /media/casa/Research/Projects/headpose/gcn-distill/retrain/FAN/3D/3D_FAN_21LM_N0.5_normalized_new2/3D_FAN_21LM_N0.5_normalized_new2-63.pt
+# weights_file: ./output/retrain/FAN/3D/FAN_21LM_3D_1S_N0.5_normalized/FAN_21LM_3D_1S_N0.5_normalized-289.pt
+# weights_file: /media/casa/Research/Projects/headpose/gcn-distill/output/retrain/FAN/3D/FAN_21LM_3D_1S_N0.5_normalized_matrix_rescale/FAN_21LM_3D_1S_N0.5_normalized_matrix_rescale-195.pt
+# weights_file_extract: ./save_model/ref_dis_noise_old_nll_k10_v2/ref_dis_noise_old_nll_occlusion_v2-75.pt
+# weights_file_extract: ./save_model/BCFIK_p2/BCFIK_p2.pt
+weights_file_extract: ./save_model/pullback_p2/pullback_p2.pt
+# weights: ./save_model/BCEGIK_p2/BCEGIK_p2.pt
+# weights:  ./save_model/ref_dis_noise_old_nll_k10_0.5dloss_0.05noise_sampling_v2/ref_dis_noise_old_nll_k10_0.5dloss_0.05noise_sampling_v2-99.pt # checkpoint
+continue_training: False
+# checkpoint_file: './output/Synergy/3d_train/Synergy_21_landmarks-3D_1stream_noise0.5-checkpoint.pt'
+# checkpoint_file: './output/3D/distillation/21_landmark-3D_1/21_landmark-3D-69-132930.pt'
